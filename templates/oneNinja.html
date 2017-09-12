@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Picture of {{turtleName}}</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='master.css') }}">
+    </head>
+    <body>
+        <h1>{{turtleName}}!!</h1>
+        <img src="{{pictureToDisplay}}" alt="a picture of {{turtleName}}">
+        <br>
+        <a href="/">No Turtles</a><br>
+        <a href="/ninja/blue">Leonardo</a><br>
+        <a href="/ninja/orange">Michelangelo</a><br>
+        <a href="/ninja/red">Raphael</a><br>
+        <a href="/ninja/purple">Donatello</a><br>
+        <a href="/ninja">All Ninjas!</a>
+    </body>
+</html>
